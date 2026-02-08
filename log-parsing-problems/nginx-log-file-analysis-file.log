@@ -1,0 +1,7 @@
+192.168.1.101 - - [21/Apr/2025:10:05:15 +0100] "GET /index.html HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+192.168.1.102 - - [21/Apr/2025:10:05:20 +0100] "GET /styles/main.css HTTP/1.1" 200 1024 "http://example.com/index.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+192.168.1.101 - - [21/Apr/2025:10:05:21 +0100] "GET /images/logo.png HTTP/1.1" 200 2048 "http://example.com/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+192.168.1.103 - - [21/Apr/2025:10:06:05 +0100] "GET /products/item1 HTTP/1.1" 200 1800 "-" "Chrome/110.0.0.0"
+192.168.1.104 - - [21/Apr/2025:10:06:30 +0100] "GET /nonexistentpage HTTP/1.1" 404 150 "-" "Firefox/109.0"
+192.168.1.101 - - [21/Apr/2025:10:07:00 +0100] "POST /api/submit HTTP/1.1" 201 50 "http://example.com/form.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+192.168.1.102 - - [21/Apr/2025:10:07:15 +0100] "GET /index.html HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"

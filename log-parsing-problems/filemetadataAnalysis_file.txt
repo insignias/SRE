@@ -1,0 +1,7 @@
+/var/log/app.log,10240,1678886400
+/home/user/data.csv,51200,1678886460
+/etc/config.xml,1024,1678800000
+/var/log/kernel.log,20480,1678890000
+/home/user/report.pdf,204800,1678886520
+/home/user/archive.zip,1024000,1678790000
+/var/log/sys.log,15360,1678890060
